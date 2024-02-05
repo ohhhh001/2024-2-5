@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e,q;
+    cin>>a;//行数
+    cin>>b;//列数
+    for(c=1;c<=a;c++)
+    {
+        for(d=1;d<=b;d++)
+        {
+        q++;
+       if(q%b==0) cout<<"PUM"<<endl;
+       else
+       cout<<q<<" ";
+        }
+    }
+    
+}
